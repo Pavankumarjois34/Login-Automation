@@ -1,3 +1,4 @@
+
 # 📱 Swag Labs Appium Automation Suite
 
 This repository contains a **mobile automation framework** for the **Swag Labs Demo App**, built using **WebdriverIO**, **Appium**, and **Cucumber**. The framework follows the **Page Object Model (POM)** design pattern for better maintainability and scalability, and uses **Allure** for rich and interactive test reporting.
@@ -64,7 +65,7 @@ appium driver install uiautomator2
 ├── apps/                   # Application binaries (.apk)
 ├── features/               # Gherkin feature files (BDD specs)
 │   └── step-definitions/   # Step definitions (glue code)
-├── pageobjects/            # Page Object Model classes (e.g., LoginPage.js)
+|   └── pageobjects/        # Page Object Model classes (e.g., LoginPage.js)          
 ├── screenshots/            # Screenshots captured on test failures
 ├── allure-results/         # Raw data generated for Allure reports
 ├── wdio.conf.js            # WebdriverIO configuration
