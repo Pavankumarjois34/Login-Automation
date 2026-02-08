@@ -37,7 +37,7 @@ jobs:
           avd-name: test
           force-avd-creation: true
           disable-animations: true
-          emulator-boot-timeout: 900
+          emulator-boot-timeout: 0 
           emulator-options: >
             -no-window
             -gpu swiftshader_indirect
@@ -48,17 +48,20 @@ jobs:
             -no-snapshot
             -wipe-data
           script: |
+            echo "Restarting ADB..."
             adb kill-server
             adb start-server
-            adb wait-for-device
-            adb shell getprop sys.boot_completed
-            npm test
 
-      - name: Upload Screenshots & Reports
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: test-results
-          path: |
-            screenshots/
-            allure-results/
+            echo "Waiting for emulator to appear..."
+            until adb devices | grep -m 1 "emulator-5554"; do
+              sleep 3
+            done
+
+            echo "Waiting for emulator to be ONLINE..."
+            until adb devices | grep -m 1 "emulator-5554[[:space:]]*device"; do
+              adb reconnect offline || true
+              sleep 5
+            done
+
+            echo "Waiting for Android boot to complete..."
+            until adb shell getprop sys.boot_completed | grep -m 1 "1"; do
