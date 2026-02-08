@@ -18,6 +18,7 @@ export const config = {
         'appium:app': join(process.cwd(), './apps/demo.apk'),
         'appium:appPackage': ' com.swaglabsmobileapp',
         'appium:appActivity': 'com.swaglabsmobileapp.MainActivity', 
+        'appium:ignoreHiddenApiPolicyError': true,
         'appium:autoGrantPermissions': true,
         'appium:noReset': false, 
         'appium:newCommandTimeout': 300
