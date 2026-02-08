@@ -1,4 +1,5 @@
 name: Android UI Tests
+
 on:
   push:
     branches: [ main ]
@@ -8,6 +9,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -35,7 +37,7 @@ jobs:
           avd-name: test
           force-avd-creation: true
           disable-animations: true
-          emulator-boot-timeout: 600
+          emulator-boot-timeout: 900
           emulator-options: >
             -no-window
             -gpu swiftshader_indirect
@@ -43,7 +45,14 @@ jobs:
             -no-boot-anim
             -camera-back none
             -no-metrics
-          script: npm test
+            -no-snapshot
+            -wipe-data
+          script: |
+            adb kill-server
+            adb start-server
+            adb wait-for-device
+            adb shell getprop sys.boot_completed
+            npm test
 
       - name: Upload Screenshots & Reports
         if: always()
