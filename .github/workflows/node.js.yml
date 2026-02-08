@@ -7,7 +7,7 @@ on:
 
 jobs:
   test:
-    runs-on: macos-latest
+    runs-on: macos-13
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -21,12 +21,18 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install and Start Appium
+        run: |
+          npm install -g appium
+          appium driver install uiautomator2
+          appium & 
+
       - name: Run Appium Tests
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: 31
           target: google_apis
-          arch: arm64-v8a
+          arch: x86_64
           force-avd-creation: false
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none -no-metrics
           disable-animations: true
