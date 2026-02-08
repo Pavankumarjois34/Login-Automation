@@ -7,7 +7,7 @@ on:
 
 jobs:
   test:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -30,11 +30,12 @@ jobs:
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: 31
-          target: google_apis_arm64-v8a
-          arch: arm64-v8a 
+          target: google_apis
+          arch: x86_64
           avd-name: test
           force-avd-creation: true
           disable-animations: true
+          emulator-boot-timeout: 600
           emulator-options: >
             -no-window
             -gpu swiftshader_indirect
