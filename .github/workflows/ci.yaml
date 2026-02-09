@@ -19,7 +19,7 @@ jobs:
           env:
             BROWSERSTACK_USER: ${{ secrets.USERNAME }}
             BROWSERSTACK_ACCESS_KEY: ${{ secrets.BS_KEY }}
-          run: npm run test:local
+          run: npm run bstest
 
         - name: 📦 Upload Logs
           uses: actions/upload-artifact@v4
