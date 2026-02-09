@@ -12,3 +12,4 @@ screenshots/*.png
 # System/IDE files
 .DS_Store
 .vscode/
+.env

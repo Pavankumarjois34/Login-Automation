@@ -1,8 +1,9 @@
 import { join } from 'path';
+import { env } from 'process';
 
 const browserstackOptions = {
-    userName: 'pavankumarjois_5Qklh9',
-    accessKey: '8WzLRB6LJLdh7ssoVFUe',
+    userName: env.BROWSERSTACK_USER,
+    accessKey: env.BROWSERSTACK_ACCESS_KEY,
     buildIdentifier: process.env.BUILD_NUMBER,
     appiumVersion: '3.1.0'
 };
