@@ -14,9 +14,6 @@ class LoginPage {
 
     async openLoginScreen() {
         try {
-            await driver.execute('mobile: activateApp', {
-                appId: 'com.swaglabsmobileapp'
-            });
             await this.usernameField.waitForDisplayed({ timeout: 10000 });
             console.log(' Login screen ready');
         } catch (error) {
@@ -63,25 +60,6 @@ class LoginPage {
 
     async isProductsScreenDisplayed() {
         return await this.productsScreen.isDisplayed().catch(() => false);
-    }
-
-    async logout() {
-        try {
-            await this.menuButton.waitForDisplayed();
-            await this.menuButton.click();
-
-            await this.logoutButton.waitForDisplayed({ timeout: 5000 });
-            await this.logoutButton.click();
-
-            const confirmLogout = await $('//*[@resource-id="android:id/button1"]');
-            if (await confirmLogout.isDisplayed()) {
-                await confirmLogout.click();
-            }
-            console.log('User logged out successfully');
-        } catch (error) {
-            console.error('Error during logout:', error.message);
-            throw error;
-        }
     }
 
     async clearFields() {

@@ -1,14 +1,14 @@
-[90m2026-02-09T06:28:28.115Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m BrowserStack service started with id: 1c64870f-f7c6-4e4e-9e35-36d7c01ac6e7
-[90m2026-02-09T06:28:28.116Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m _options data: {"browserstackLocal":false}
-[90m2026-02-09T06:28:28.116Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m webdriver capabilities data: [{"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:automationName":"UiAutomator2","appium:app":"bs://699284aea40976e6df6f690d3977c8180bfbaea4","bstack:options":{"userName":"pavankumarjois_5Qklh9","accessKey":"8WzLRB6LJLdh7ssoVFUe","appiumVersion":"3.1.0"}}]
-[90m2026-02-09T06:28:28.117Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m _config data: {"rootDir":"C:\\Users\\pavan\\Downloads\\mobile-login-app","specs":["./features/**/login.feature"],"suites":{},"exclude":[],"capabilities":[],"logLevel":"info","logLevels":{},"groupLogsByTestSpec":false,"excludeDriverLogs":[],"bail":0,"waitforInterval":100,"waitforTimeout":10000,"framework":"cucumber","reporters":["spec",["allure",{"outputDir":"allure-results","disableWebdriverStepsReporting":false,"disableWebdriverScreenshotsReporting":false}]],"services":[["browserstack",{"browserstackLocal":false}]],"maxInstances":1,"maxInstancesPerCapability":100,"injectGlobals":true,"filesToWatch":[],"connectionRetryTimeout":120000,"connectionRetryCount":3,"execArgv":[],"runnerEnv":{},"runner":"local","shard":{"current":1,"total":1},"specFileRetries":0,"specFileRetriesDelay":0,"specFileRetriesDeferred":false,"autoAssertOnTestEnd":true,"reporterSyncInterval":100,"reporterSyncTimeout":5000,"cucumberFeaturesWithLineNumbers":[],"mochaOpts":{"timeout":10000},"jasmineOpts":{"defaultTimeoutInterval":10000},"cucumberOpts":{"timeout":60000,"require":["./features/step-definitions/*.js"]},"onPrepare":[],"onWorkerStart":[],"onWorkerEnd":[],"before":[],"beforeSession":[],"beforeSuite":[],"beforeHook":[],"beforeTest":[],"beforeCommand":[],"afterCommand":[],"afterTest":[],"afterHook":[],"afterSuite":[],"afterSession":[],"after":[],"onComplete":[],"onReload":[],"beforeAssertion":[],"afterAssertion":[],"beforeFeature":[],"beforeScenario":[],"beforeStep":[],"afterStep":[],"afterScenario":[null],"afterFeature":[],"_":["run","run"],"$0":"node_modules\\@wdio\\cli\\bin\\wdio.js","config-path":"./wdio.conf.bs.js","user":"[REDACTED]","key":"[REDACTED]"}
-[90m2026-02-09T06:28:28.120Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
+[90m2026-02-19T05:47:31.338Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m BrowserStack service started with id: b02ac7ac-d3e1-41c8-a6ee-c01b62e66e4c
+[90m2026-02-19T05:47:31.339Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m _options data: {"browserstackLocal":false}
+[90m2026-02-19T05:47:31.340Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m webdriver capabilities data: [{"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:automationName":"UiAutomator2","appium:app":"bs://699284aea40976e6df6f690d3977c8180bfbaea4","bstack:options":{"userName":"pavankumarjois_5Qklh9","accessKey":"8WzLRB6LJLdh7ssoVFUe","appiumVersion":"3.1.0"}}]
+[90m2026-02-19T05:47:31.340Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m _config data: {"rootDir":"C:\\Users\\pavan\\Downloads\\mobile-login-app","specs":["./features/**/login.feature"],"suites":{},"exclude":[],"capabilities":[],"logLevel":"info","logLevels":{},"groupLogsByTestSpec":false,"excludeDriverLogs":[],"bail":0,"waitforInterval":100,"waitforTimeout":10000,"framework":"cucumber","reporters":["spec",["allure",{"outputDir":"allure-results","disableWebdriverStepsReporting":false,"disableWebdriverScreenshotsReporting":false}]],"services":[["browserstack",{"browserstackLocal":false}]],"maxInstances":1,"maxInstancesPerCapability":100,"injectGlobals":true,"filesToWatch":[],"connectionRetryTimeout":120000,"connectionRetryCount":3,"execArgv":[],"runnerEnv":{},"runner":"local","shard":{"current":1,"total":1},"specFileRetries":0,"specFileRetriesDelay":0,"specFileRetriesDeferred":false,"autoAssertOnTestEnd":true,"reporterSyncInterval":100,"reporterSyncTimeout":5000,"cucumberFeaturesWithLineNumbers":[],"mochaOpts":{"timeout":10000},"jasmineOpts":{"defaultTimeoutInterval":10000},"cucumberOpts":{"timeout":60000,"require":["./features/step-definitions/*.js"]},"onPrepare":[],"onWorkerStart":[],"onWorkerEnd":[],"before":[],"beforeSession":[],"beforeSuite":[],"beforeHook":[],"beforeTest":[],"beforeCommand":[],"afterCommand":[],"afterTest":[],"afterHook":[],"afterSuite":[],"afterSession":[],"after":[],"onComplete":[],"onReload":[],"beforeAssertion":[],"afterAssertion":[],"beforeFeature":[],"beforeScenario":[],"beforeStep":[],"afterStep":[],"afterScenario":[null],"afterFeature":[],"_":["run","run"],"$0":"node_modules\\@wdio\\cli\\bin\\wdio.js","config-path":"./wdio.conf.bs.js","user":"[REDACTED]","key":"[REDACTED]"}
+[90m2026-02-19T05:47:31.343Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
   userName: '[REDACTED]',
   accessKey: '[REDACTED]',
   event_type: 'SDKTestAttempted',
   detectedFramework: 'WebdriverIO-cucumber',
   event_properties: {
-    sdkRunId: '1c64870f-f7c6-4e4e-9e35-36d7c01ac6e7',
+    sdkRunId: 'b02ac7ac-d3e1-41c8-a6ee-c01b62e66e4c',
     testhub_uuid: undefined,
     language_framework: 'WebdriverIO_cucumber',
     referrer: 'WebdriverIO-cucumber/9.23.2',
@@ -29,393 +29,399 @@
     framework: 'cucumber'
   }
 }
-[90m2026-02-09T06:28:28.456Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel Event Response: "{\"message\":\"SDK Event recorded successfully\"}"
-[90m2026-02-09T06:28:28.457Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
-[90m2026-02-09T06:28:28.457Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m app is not defined in browserstack-service config, skipping ...
-[90m2026-02-09T06:28:28.458Z[39m [33mWARN[39m [97m@wdio/browserstack-service[39m Accessibility Automation will run only on Chrome browsers.
-[90m2026-02-09T06:28:28.458Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
-[90m2026-02-09T06:28:28.476Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:automationFrameworkInit: 2193.8547 -> 1770618508119.5488 (timeOrigin: 1770618505925.694)
-[90m2026-02-09T06:28:28.476Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:funnel:test-attempted: 2193.8964 -> 1770618508119.5906 (timeOrigin: 1770618505925.694)
-[90m2026-02-09T06:28:28.481Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Setting runSmartSelection: enabled=false, mode=relevantFirst
-[90m2026-02-09T06:28:28.481Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [_extractBuildDetails] Extracted - projectName: undefined, buildName: undefined, buildIdentifier: undefined
-[90m2026-02-09T06:28:29.727Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Start_Build] Success response: {"observability":{"success":true,"options":{"allow_screenshots":true}},"automate":{"success":true,"options":{"allow_screenshots":true}},"build_hashed_id":"yqm7ctz2crbnzanxpcfdymmistlfdc8j9uw0cwli","jwt":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiIxMDY1NTUxNyIsImdyb3VwX2lkIjoxMDU2OTk0OCwidXNlcl9pZCI6MTA2NTU1MTcsImJ1aWxkX2hhc2hlZF9pZCI6InlxbTdjdHoyY3JibnphbnhwY2ZkeW1taXN0bGZkYzhqOXV3MGN3bGkiLCJob29rX2FzX3Rlc3QiOiIxIiwiYnVpbGRfbmFtZSI6Im1vYmlsZS1sb2dpbi1hcHAiLCJwcm9kdWN0X21hcCI6IntcIm9ic2VydmFiaWxpdHlcIjp0cnVlLFwiYXV0b21hdGVcIjp0cnVlLFwibm9uU0RLXCI6ZmFsc2UsXCJjYWRcIjp0cnVlLFwib3JpZ2luRnJvbVByb2R1Y3RNYXBcIjpcIkF1dG9tYXRlXCIsXCJic3RhY2tBdXRvbWF0aW9uXCI6dHJ1ZSxcImFjY2Vzc2liaWxpdHlBdXRvRW5hYmxlZFwiOnRydWV9IiwiZ3JyX3JlZ2lvbiI6IiIsImlzX2xvd192b2x1bWUiOmZhbHNlLCJpc19sY25jX2V2ZW50IjpmYWxzZSwiaXNfbHRzX2V2ZW50IjpmYWxzZSwic2lnbmluZ19rZXlfaGFzaCI6IjM3YzExMzFlNGIyZTc0M2M3NjZlMWQ3MGJmNWYyYjU3ZGM2OWIxOTVkMzAwZTMyYWU4ZDAyMzEyMGE0YTZkOTciLCJpYXQiOjE3NzA2MTg1MTQsImV4cCI6MTc3MDk2NDExNH0.nrxi5ATzWvimq8FESl8TfsXBMO2TSIVoi023ExxLV18"}
-[90m2026-02-09T06:28:29.727Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Testhub started with id: yqm7ctz2crbnzanxpcfdymmistlfdc8j9uw0cwli
-[90m2026-02-09T06:28:29.728Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m browserstackLocal is not enabled - skipping...
-[90m2026-02-09T06:28:29.772Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:pre-test: 2193.2731 -> 1770618508118.9673 (timeOrigin: 1770618505925.694)
-[90m2026-02-09T06:28:29.772Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:testhub:start: 2533.0679 -> 1770618508458.762 (timeOrigin: 1770618505925.694)
-[90m2026-02-09T06:28:29.772Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:setup: 3813.7377 -> 1770618509739.432 (timeOrigin: 1770618505925.694)
-[90m2026-02-09T06:28:32.047Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Device allocation tracking started - waiting for WebDriverIO to create remote session
-[90m2026-02-09T06:28:32.890Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 2260.0326 -> 1770618512046.9116 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:32.890Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:driverInit: 2260.268 -> 1770618512047.147 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:49.328Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Device allocation tracking ended - remote session created successfully
-[90m2026-02-09T06:28:49.329Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Skipping method: Console, exists: true, type: function
-[90m2026-02-09T06:28:49.335Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:device-allocation: 2260.7193 -> 1770618512047.5981 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:49.448Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Requesting Browserstack session URL at https://api-cloud.browserstack.com/app-automate/sessions/e829fd9baf2aa5fc359cf54eb7a4876d231497d3.json
-[90m2026-02-09T06:28:49.452Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:driver:pre-initialization: 19542.3388 -> 1770618529329.2178 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:49.452Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:observabilityConfig: 19543.3561 -> 1770618529330.235 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:49.860Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m  session: https://app-automate.browserstack.com/builds/29ac266a36bdb60120fa5a12205c76c2bb2065e5/sessions/e829fd9baf2aa5fc359cf54eb7a4876d231497d3
-[90m2026-02-09T06:28:49.925Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 19541.8754 -> 1770618529328.7544 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:49.925Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:driver:post-initialization: 19661.1618 -> 1770618529448.0408 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:49.925Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:automate:print-buildlink: 19661.1916 -> 1770618529448.0706 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:49.939Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId e829fd9baf2aa5fc359cf54eb7a4876d231497d3
-[90m2026-02-09T06:28:49.939Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/e829fd9baf2aa5fc359cf54eb7a4876d231497d3.json with request body: 
-[90m2026-02-09T06:28:50.332Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"R5CT3130P1M","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT3130P1M","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"samsung galaxy s22 ultra","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT3130P1M","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12.0","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true},"deviceUDID":"R5CT3130P1M","pixelRatio":"2.8125","statBarHeight":75,"viewportRect":{"left":0,"top":75,"width":1080,"height":2241},"deviceApiLevel":31,"deviceManufacturer":"samsung","deviceModel":"SM-S908E","deviceScreenSize":"1080x2316","deviceScreenDensity":450}
-[90m2026-02-09T06:28:50.332Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:automationName":"UiAutomator2","appium:app":"bs://699284aea40976e6df6f690d3977c8180bfbaea4","bstack:options":{"userName":"pavankumarjois_5Qklh9","accessKey":"8WzLRB6LJLdh7ssoVFUe","appiumVersion":"3.1.0","wdioService":"9.23.2","testhubBuildUuid":"yqm7ctz2crbnzanxpcfdymmistlfdc8j9uw0cwli","buildProductMap":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false}}}
-[90m2026-02-09T06:28:50.332Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got platformVersion from driver caps
-[90m2026-02-09T06:28:50.333Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2026-02-09T06:28:50.337Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 20152.6634 -> 1770618529939.5422 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:50.392Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2026-02-09T06:28:50.397Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 20545.1767 -> 1770618530332.0557 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:50.419Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2026-02-09T06:28:50.422Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 20608.5911 -> 1770618530395.47 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:50.551Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
-[90m2026-02-09T06:28:50.627Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
-[90m2026-02-09T06:28:50.679Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
-[90m2026-02-09T06:28:50.680Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 7
-[90m2026-02-09T06:28:50.684Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 20894.5295 -> 1770618530681.4084 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:50.705Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 8
-[90m2026-02-09T06:28:50.708Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 20895.8203 -> 1770618530682.6992 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:50.765Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 9
-[90m2026-02-09T06:28:50.819Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 10
-[90m2026-02-09T06:28:50.879Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 11
-[90m2026-02-09T06:28:50.930Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 12
-[90m2026-02-09T06:28:51.958Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 13
-[90m2026-02-09T06:28:52.347Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 13, Queue length after removal = 0
-[90m2026-02-09T06:28:52.347Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2026-02-09T06:28:52.347Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 13
-[90m2026-02-09T06:28:52.485Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2026-02-09T06:28:52.534Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2026-02-09T06:28:53.022Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2026-02-09T06:28:53.023Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 13
-[90m2026-02-09T06:28:53.770Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2026-02-09T06:28:53.772Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 23984.011 -> 1770618533770.89 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:53.792Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
-[90m2026-02-09T06:28:53.795Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 23984.4682 -> 1770618533771.3472 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:54.298Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
-[90m2026-02-09T06:28:54.358Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 5, Queue length after removal = 0
-[90m2026-02-09T06:28:54.358Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2026-02-09T06:28:54.358Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 5
-[90m2026-02-09T06:28:54.460Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2026-02-09T06:28:54.462Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 24674.515 -> 1770618534461.3938 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:54.491Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2026-02-09T06:28:54.493Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 24674.9704 -> 1770618534461.8494 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:54.604Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2026-02-09T06:28:54.605Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 5
-[90m2026-02-09T06:28:55.032Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2026-02-09T06:28:55.547Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
-[90m2026-02-09T06:28:55.550Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 25762.2225 -> 1770618535549.1013 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:55.571Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
-[90m2026-02-09T06:28:55.573Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 25762.5961 -> 1770618535549.475 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:55.735Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
-[90m2026-02-09T06:28:56.250Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 7
-[90m2026-02-09T06:28:56.252Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 26463.8518 -> 1770618536250.7307 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:56.272Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 8
-[90m2026-02-09T06:28:56.274Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 26464.2185 -> 1770618536251.0974 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:28:56.365Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 8, Queue length after removal = 0
-[90m2026-02-09T06:28:56.365Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2026-02-09T06:28:56.365Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 8
-[90m2026-02-09T06:28:56.439Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2026-02-09T06:28:56.497Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2026-02-09T06:28:56.596Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2026-02-09T06:28:56.596Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 8
-[90m2026-02-09T06:28:56.698Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2026-02-09T06:28:56.869Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
-[90m2026-02-09T06:28:58.379Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 4, Queue length after removal = 0
-[90m2026-02-09T06:28:58.379Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2026-02-09T06:28:58.379Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 4
-[90m2026-02-09T06:28:58.516Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2026-02-09T06:28:58.591Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2026-02-09T06:28:58.692Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2026-02-09T06:28:58.692Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 4
-[90m2026-02-09T06:28:58.704Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2026-02-09T06:28:58.852Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
-[90m2026-02-09T06:29:00.386Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 4, Queue length after removal = 0
-[90m2026-02-09T06:29:00.387Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2026-02-09T06:29:00.387Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 4
-[90m2026-02-09T06:29:00.615Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2026-02-09T06:29:00.625Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2026-02-09T06:29:00.625Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 4
-[90m2026-02-09T06:29:00.740Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2026-02-09T06:29:00.742Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2026-02-09T06:29:00.743Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after scenario hook. Before sending test stop event
-[90m2026-02-09T06:29:00.744Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Flushing CBT Data Queue 0418077b-ba49-4936-854f-ca6d2c489019
-[90m2026-02-09T06:29:00.744Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
-[90m2026-02-09T06:29:00.746Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"R5CT3130P1M","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT3130P1M","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"samsung galaxy s22 ultra","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT3130P1M","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12.0","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true},"deviceUDID":"R5CT3130P1M","pixelRatio":"2.8125","statBarHeight":75,"viewportRect":{"left":0,"top":75,"width":1080,"height":2241},"deviceApiLevel":31,"deviceManufacturer":"samsung","deviceModel":"SM-S908E","deviceScreenSize":"1080x2316","deviceScreenDensity":450}
-[90m2026-02-09T06:29:00.746Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:automationName":"UiAutomator2","appium:app":"bs://699284aea40976e6df6f690d3977c8180bfbaea4","bstack:options":{"userName":"pavankumarjois_5Qklh9","accessKey":"8WzLRB6LJLdh7ssoVFUe","appiumVersion":"3.1.0","wdioService":"9.23.2","testhubBuildUuid":"yqm7ctz2crbnzanxpcfdymmistlfdc8j9uw0cwli","buildProductMap":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false}}}
-[90m2026-02-09T06:29:00.746Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got platformVersion from driver caps
-[90m2026-02-09T06:29:00.746Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
-[90m2026-02-09T06:29:00.747Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 30955.8585 -> 1770618540742.7373 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:00.747Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 30956.6122 -> 1770618540743.4912 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:00.767Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
-[90m2026-02-09T06:29:00.769Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 30959.5299 -> 1770618540746.4087 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:00.790Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 7
-[90m2026-02-09T06:29:00.792Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 30981.1679 -> 1770618540768.0469 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:00.952Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 8
-[90m2026-02-09T06:29:01.003Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 9
-[90m2026-02-09T06:29:01.047Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 10
-[90m2026-02-09T06:29:01.047Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 11
-[90m2026-02-09T06:29:01.049Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 31261.2936 -> 1770618541048.1726 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:01.073Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 12
-[90m2026-02-09T06:29:01.075Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 31261.7556 -> 1770618541048.6345 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:01.127Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 13
-[90m2026-02-09T06:29:01.175Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 14
-[90m2026-02-09T06:29:01.228Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 15
-[90m2026-02-09T06:29:01.273Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 16
-[90m2026-02-09T06:29:01.829Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 17
-[90m2026-02-09T06:29:02.351Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 18
-[90m2026-02-09T06:29:02.389Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 18, Queue length after removal = 0
-[90m2026-02-09T06:29:02.389Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2026-02-09T06:29:02.389Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 18
-[90m2026-02-09T06:29:02.401Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2026-02-09T06:29:02.692Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2026-02-09T06:29:02.692Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 18
-[90m2026-02-09T06:29:03.434Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2026-02-09T06:29:03.436Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 33647.8683 -> 1770618543434.7473 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:03.456Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2026-02-09T06:29:03.458Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 33648.3685 -> 1770618543435.2473 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:03.951Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
-[90m2026-02-09T06:29:04.101Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
-[90m2026-02-09T06:29:04.102Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 34314.865 -> 1770618544101.744 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:04.124Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
-[90m2026-02-09T06:29:04.126Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 34315.2471 -> 1770618544102.126 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:04.400Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 6, Queue length after removal = 0
-[90m2026-02-09T06:29:04.401Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2026-02-09T06:29:04.401Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 6
-[90m2026-02-09T06:29:04.648Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2026-02-09T06:29:04.648Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 6
-[90m2026-02-09T06:29:05.162Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2026-02-09T06:29:05.206Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2026-02-09T06:29:05.208Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 35420.5721 -> 1770618545207.451 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:05.228Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2026-02-09T06:29:05.231Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 35421.0337 -> 1770618545207.9126 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:05.379Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
-[90m2026-02-09T06:29:05.429Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
-[90m2026-02-09T06:29:05.430Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after scenario hook. Before sending test stop event
-[90m2026-02-09T06:29:05.430Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Flushing CBT Data Queue 6cafbdc9-99a5-499b-bb1f-1f218151b446
-[90m2026-02-09T06:29:05.431Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
-[90m2026-02-09T06:29:05.432Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"R5CT3130P1M","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT3130P1M","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"samsung galaxy s22 ultra","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT3130P1M","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12.0","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true},"deviceUDID":"R5CT3130P1M","pixelRatio":"2.8125","statBarHeight":75,"viewportRect":{"left":0,"top":75,"width":1080,"height":2241},"deviceApiLevel":31,"deviceManufacturer":"samsung","deviceModel":"SM-S908E","deviceScreenSize":"1080x2316","deviceScreenDensity":450}
-[90m2026-02-09T06:29:05.432Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:automationName":"UiAutomator2","appium:app":"bs://699284aea40976e6df6f690d3977c8180bfbaea4","bstack:options":{"userName":"pavankumarjois_5Qklh9","accessKey":"8WzLRB6LJLdh7ssoVFUe","appiumVersion":"3.1.0","wdioService":"9.23.2","testhubBuildUuid":"yqm7ctz2crbnzanxpcfdymmistlfdc8j9uw0cwli","buildProductMap":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false}}}
-[90m2026-02-09T06:29:05.432Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got platformVersion from driver caps
-[90m2026-02-09T06:29:05.432Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 7
-[90m2026-02-09T06:29:05.433Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 35643.8677 -> 1770618545430.7466 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:05.433Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 35644.3374 -> 1770618545431.2163 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:05.453Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 8
-[90m2026-02-09T06:29:05.455Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 35645.5794 -> 1770618545432.4583 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:05.474Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 9
-[90m2026-02-09T06:29:05.477Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 35667.5288 -> 1770618545454.4077 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:05.627Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 10
-[90m2026-02-09T06:29:05.684Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 11
-[90m2026-02-09T06:29:05.725Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 12
-[90m2026-02-09T06:29:05.726Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 13
-[90m2026-02-09T06:29:05.728Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 35939.8156 -> 1770618545726.6946 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:05.748Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 14
-[90m2026-02-09T06:29:05.750Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 35940.4631 -> 1770618545727.342 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:05.806Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 15
-[90m2026-02-09T06:29:05.851Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 16
-[90m2026-02-09T06:29:05.916Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 17
-[90m2026-02-09T06:29:05.967Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 18
-[90m2026-02-09T06:29:06.411Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 18, Queue length after removal = 0
-[90m2026-02-09T06:29:06.411Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2026-02-09T06:29:06.411Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 18
-[90m2026-02-09T06:29:06.607Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2026-02-09T06:29:06.650Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2026-02-09T06:29:06.650Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 18
-[90m2026-02-09T06:29:07.134Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2026-02-09T06:29:07.184Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2026-02-09T06:29:08.214Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
-[90m2026-02-09T06:29:08.215Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 38427.7482 -> 1770618548214.6272 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:08.238Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
-[90m2026-02-09T06:29:08.240Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 38428.0167 -> 1770618548214.8955 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:08.415Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 5, Queue length after removal = 0
-[90m2026-02-09T06:29:08.415Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2026-02-09T06:29:08.415Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 5
-[90m2026-02-09T06:29:08.656Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2026-02-09T06:29:08.656Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 5
-[90m2026-02-09T06:29:08.816Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2026-02-09T06:29:08.864Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2026-02-09T06:29:08.866Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 39078.004 -> 1770618548864.8828 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:08.887Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2026-02-09T06:29:08.888Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 39078.4676 -> 1770618548865.3464 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:08.985Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
-[90m2026-02-09T06:29:09.028Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
-[90m2026-02-09T06:29:09.029Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after scenario hook. Before sending test stop event
-[90m2026-02-09T06:29:09.029Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Flushing CBT Data Queue d4b28caf-5d96-41b0-994a-9f49be776fd8
-[90m2026-02-09T06:29:09.029Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
-[90m2026-02-09T06:29:09.030Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"R5CT3130P1M","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT3130P1M","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"samsung galaxy s22 ultra","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT3130P1M","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12.0","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true},"deviceUDID":"R5CT3130P1M","pixelRatio":"2.8125","statBarHeight":75,"viewportRect":{"left":0,"top":75,"width":1080,"height":2241},"deviceApiLevel":31,"deviceManufacturer":"samsung","deviceModel":"SM-S908E","deviceScreenSize":"1080x2316","deviceScreenDensity":450}
-[90m2026-02-09T06:29:09.030Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:automationName":"UiAutomator2","appium:app":"bs://699284aea40976e6df6f690d3977c8180bfbaea4","bstack:options":{"userName":"pavankumarjois_5Qklh9","accessKey":"8WzLRB6LJLdh7ssoVFUe","appiumVersion":"3.1.0","wdioService":"9.23.2","testhubBuildUuid":"yqm7ctz2crbnzanxpcfdymmistlfdc8j9uw0cwli","buildProductMap":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false}}}
-[90m2026-02-09T06:29:09.030Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got platformVersion from driver caps
-[90m2026-02-09T06:29:09.030Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 7
-[90m2026-02-09T06:29:09.032Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 39242.8242 -> 1770618549029.7031 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:09.032Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 39243.1551 -> 1770618549030.034 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:09.053Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 8
-[90m2026-02-09T06:29:09.054Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 39244.2338 -> 1770618549031.1128 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:09.074Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 9
-[90m2026-02-09T06:29:09.077Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 39267.0958 -> 1770618549053.9746 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:09.235Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 10
-[90m2026-02-09T06:29:09.293Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 11
-[90m2026-02-09T06:29:09.336Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 12
-[90m2026-02-09T06:29:09.336Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 13
-[90m2026-02-09T06:29:09.337Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 39549.9858 -> 1770618549336.8647 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:09.357Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 14
-[90m2026-02-09T06:29:09.359Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 39550.2749 -> 1770618549337.1538 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:09.413Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 15
-[90m2026-02-09T06:29:09.458Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 16
-[90m2026-02-09T06:29:09.506Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 17
-[90m2026-02-09T06:29:09.547Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 18
-[90m2026-02-09T06:29:10.416Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 18, Queue length after removal = 0
-[90m2026-02-09T06:29:10.416Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2026-02-09T06:29:10.416Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 18
-[90m2026-02-09T06:29:10.647Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2026-02-09T06:29:10.647Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 18
-[90m2026-02-09T06:29:10.671Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2026-02-09T06:29:11.191Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2026-02-09T06:29:11.239Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2026-02-09T06:29:12.280Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
-[90m2026-02-09T06:29:12.282Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 42493.7356 -> 1770618552280.6145 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:12.309Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
-[90m2026-02-09T06:29:12.317Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 42494.2616 -> 1770618552281.1406 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:12.421Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 5, Queue length after removal = 0
-[90m2026-02-09T06:29:12.421Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2026-02-09T06:29:12.421Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 5
-[90m2026-02-09T06:29:12.655Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2026-02-09T06:29:12.655Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 5
-[90m2026-02-09T06:29:12.825Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2026-02-09T06:29:13.010Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2026-02-09T06:29:13.014Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 43224.5747 -> 1770618553011.4536 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:13.034Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2026-02-09T06:29:13.037Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 43225.0172 -> 1770618553011.896 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:13.736Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
-[90m2026-02-09T06:29:13.783Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
-[90m2026-02-09T06:29:13.784Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after scenario hook. Before sending test stop event
-[90m2026-02-09T06:29:13.784Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Flushing CBT Data Queue 1cd9f9c2-d340-4428-b0b2-072e9620658b
-[90m2026-02-09T06:29:13.784Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
-[90m2026-02-09T06:29:13.786Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"R5CT3130P1M","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT3130P1M","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"samsung galaxy s22 ultra","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT3130P1M","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12.0","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true},"deviceUDID":"R5CT3130P1M","pixelRatio":"2.8125","statBarHeight":75,"viewportRect":{"left":0,"top":75,"width":1080,"height":2241},"deviceApiLevel":31,"deviceManufacturer":"samsung","deviceModel":"SM-S908E","deviceScreenSize":"1080x2316","deviceScreenDensity":450}
-[90m2026-02-09T06:29:13.786Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:automationName":"UiAutomator2","appium:app":"bs://699284aea40976e6df6f690d3977c8180bfbaea4","bstack:options":{"userName":"pavankumarjois_5Qklh9","accessKey":"8WzLRB6LJLdh7ssoVFUe","appiumVersion":"3.1.0","wdioService":"9.23.2","testhubBuildUuid":"yqm7ctz2crbnzanxpcfdymmistlfdc8j9uw0cwli","buildProductMap":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false}}}
-[90m2026-02-09T06:29:13.786Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got platformVersion from driver caps
-[90m2026-02-09T06:29:13.786Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 7
-[90m2026-02-09T06:29:13.788Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 43997.8175 -> 1770618553784.6963 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:13.788Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 43998.1751 -> 1770618553785.054 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:13.808Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 8
-[90m2026-02-09T06:29:13.809Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 43999.6871 -> 1770618553786.566 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:13.866Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 9
-[90m2026-02-09T06:29:13.868Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 44021.9787 -> 1770618553808.8577 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:14.055Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 10
-[90m2026-02-09T06:29:14.105Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 11
-[90m2026-02-09T06:29:14.147Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 12
-[90m2026-02-09T06:29:14.148Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 13
-[90m2026-02-09T06:29:14.151Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 44361.7564 -> 1770618554148.6353 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:14.175Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 14
-[90m2026-02-09T06:29:14.190Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 44362.7025 -> 1770618554149.5813 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:14.235Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 15
-[90m2026-02-09T06:29:14.274Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 16
-[90m2026-02-09T06:29:14.321Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 17
-[90m2026-02-09T06:29:14.368Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 18
-[90m2026-02-09T06:29:14.431Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 18, Queue length after removal = 0
-[90m2026-02-09T06:29:14.431Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2026-02-09T06:29:14.431Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 18
-[90m2026-02-09T06:29:14.668Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2026-02-09T06:29:14.668Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 18
-[90m2026-02-09T06:29:15.389Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2026-02-09T06:29:15.904Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2026-02-09T06:29:15.956Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2026-02-09T06:29:16.436Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 3, Queue length after removal = 0
-[90m2026-02-09T06:29:16.436Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2026-02-09T06:29:16.436Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 3
-[90m2026-02-09T06:29:16.672Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2026-02-09T06:29:16.672Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 3
-[90m2026-02-09T06:29:16.993Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2026-02-09T06:29:16.995Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 47207.5749 -> 1770618556994.4539 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:17.015Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2026-02-09T06:29:17.018Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 47207.9683 -> 1770618556994.8472 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:17.533Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2026-02-09T06:29:17.705Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
-[90m2026-02-09T06:29:17.707Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 47919.1783 -> 1770618557706.0571 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:17.727Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
-[90m2026-02-09T06:29:17.729Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 47919.5343 -> 1770618557706.413 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:18.419Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
-[90m2026-02-09T06:29:18.439Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 6, Queue length after removal = 0
-[90m2026-02-09T06:29:18.439Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2026-02-09T06:29:18.439Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 6
-[90m2026-02-09T06:29:18.462Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2026-02-09T06:29:18.463Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after scenario hook. Before sending test stop event
-[90m2026-02-09T06:29:18.463Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Flushing CBT Data Queue 7c00b547-2339-4fa9-9170-18a347ff3100
-[90m2026-02-09T06:29:18.463Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2026-02-09T06:29:18.465Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"R5CT3130P1M","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT3130P1M","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"samsung galaxy s22 ultra","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT3130P1M","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12.0","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true},"deviceUDID":"R5CT3130P1M","pixelRatio":"2.8125","statBarHeight":75,"viewportRect":{"left":0,"top":75,"width":1080,"height":2241},"deviceApiLevel":31,"deviceManufacturer":"samsung","deviceModel":"SM-S908E","deviceScreenSize":"1080x2316","deviceScreenDensity":450}
-[90m2026-02-09T06:29:18.465Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:automationName":"UiAutomator2","appium:app":"bs://699284aea40976e6df6f690d3977c8180bfbaea4","bstack:options":{"userName":"pavankumarjois_5Qklh9","accessKey":"8WzLRB6LJLdh7ssoVFUe","appiumVersion":"3.1.0","wdioService":"9.23.2","testhubBuildUuid":"yqm7ctz2crbnzanxpcfdymmistlfdc8j9uw0cwli","buildProductMap":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false}}}
-[90m2026-02-09T06:29:18.465Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got platformVersion from driver caps
-[90m2026-02-09T06:29:18.465Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2026-02-09T06:29:18.467Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 48676.6372 -> 1770618558463.516 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:18.467Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 48677.0954 -> 1770618558463.9744 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:18.488Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
-[90m2026-02-09T06:29:18.490Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 48678.4065 -> 1770618558465.2854 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:18.511Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
-[90m2026-02-09T06:29:18.513Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 48702.788 -> 1770618558489.667 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:18.642Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
-[90m2026-02-09T06:29:18.676Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2026-02-09T06:29:18.676Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 6
-[90m2026-02-09T06:29:18.700Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 7
-[90m2026-02-09T06:29:18.739Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 8
-[90m2026-02-09T06:29:18.739Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 9
-[90m2026-02-09T06:29:18.742Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 48953.3093 -> 1770618558740.1882 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:18.761Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 10
-[90m2026-02-09T06:29:18.763Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 48953.6542 -> 1770618558740.5332 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:18.835Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 11
-[90m2026-02-09T06:29:18.884Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 12
-[90m2026-02-09T06:29:19.505Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 13
-[90m2026-02-09T06:29:19.555Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 14
-[90m2026-02-09T06:29:20.076Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 15
-[90m2026-02-09T06:29:20.241Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 16
-[90m2026-02-09T06:29:20.243Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 50455.1157 -> 1770618560241.9946 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:20.264Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 17
-[90m2026-02-09T06:29:20.266Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 50455.4448 -> 1770618560242.3237 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:20.440Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 17, Queue length after removal = 0
-[90m2026-02-09T06:29:20.440Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
-[90m2026-02-09T06:29:20.440Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 17
-[90m2026-02-09T06:29:20.676Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2026-02-09T06:29:20.676Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 17
-[90m2026-02-09T06:29:20.926Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2026-02-09T06:29:20.970Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2026-02-09T06:29:20.971Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after scenario hook. Before sending test stop event
-[90m2026-02-09T06:29:20.971Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Flushing CBT Data Queue d985dc65-76d6-4b46-aca3-64ad5840ec85
-[90m2026-02-09T06:29:20.971Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2026-02-09T06:29:20.972Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId e829fd9baf2aa5fc359cf54eb7a4876d231497d3
-[90m2026-02-09T06:29:20.972Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/e829fd9baf2aa5fc359cf54eb7a4876d231497d3.json with request body: 
-[90m2026-02-09T06:29:20.974Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 51184.1472 -> 1770618560971.0261 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:20.974Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 51184.9224 -> 1770618560971.8013 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:21.437Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
-[90m2026-02-09T06:29:21.437Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown started
-[90m2026-02-09T06:29:21.437Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Shutting down request queue
-[90m2026-02-09T06:29:21.437Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind SHUTDOWN_QUEUE
-[90m2026-02-09T06:29:21.437Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 3
-[90m2026-02-09T06:29:21.438Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:automate:session-status: 51186.1946 -> 1770618560973.0735 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:21.689Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
-[90m2026-02-09T06:29:21.689Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 3
-[90m2026-02-09T06:29:21.690Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown ended
-[90m2026-02-09T06:29:21.690Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
-[90m2026-02-09T06:29:21.693Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook:after: 51186.1411 -> 1770618560973.02 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:21.693Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:driver:quit: 51186.1518 -> 1770618560973.0308 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:21.693Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:listener:worker-end: 51650.4711 -> 1770618561437.35 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:21.693Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:percy:teardown: 51903.6596 -> 1770618561690.5386 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:21.693Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:worker:save-data: 51903.6968 -> 1770618561690.5757 (timeOrigin: 1770618509786.879)
-[90m2026-02-09T06:29:23.127Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2026-02-09T06:29:23.669Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
-[90m2026-02-09T06:29:23.670Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
-[90m2026-02-09T06:29:24.399Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Success response: 
-[90m2026-02-09T06:29:24.400Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
-[90m2026-02-09T06:29:24.402Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:testhub:stop: 57744.4265 -> 1770618563670.1206 (timeOrigin: 1770618505925.694)
-[90m2026-02-09T06:29:25.077Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Success response: 
-[90m2026-02-09T06:29:25.079Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:automationFrameworkStop: 57744.3103 -> 1770618563670.0044 (timeOrigin: 1770618505925.694)
-[90m2026-02-09T06:29:25.079Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:testhub:stop: 58475.1459 -> 1770618564400.84 (timeOrigin: 1770618505925.694)
-[90m2026-02-09T06:29:25.080Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m BrowserStack service run ended for id: 1c64870f-f7c6-4e4e-9e35-36d7c01ac6e7 testhub id: yqm7ctz2crbnzanxpcfdymmistlfdc8j9uw0cwli
-[90m2026-02-09T06:29:25.081Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-12536.json
-[90m2026-02-09T06:29:25.084Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
+[90m2026-02-19T05:47:31.766Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel Event Response: "{\"message\":\"SDK Event recorded successfully\"}"
+[90m2026-02-19T05:47:31.766Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
+[90m2026-02-19T05:47:31.767Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m app is not defined in browserstack-service config, skipping ...
+[90m2026-02-19T05:47:31.767Z[39m [33mWARN[39m [97m@wdio/browserstack-service[39m Accessibility Automation will run only on Chrome browsers.
+[90m2026-02-19T05:47:31.768Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
+[90m2026-02-19T05:47:31.790Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:automationFrameworkInit: 2398.6319 -> 1771480051342.2297 (timeOrigin: 1771480048943.598)
+[90m2026-02-19T05:47:31.790Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:funnel:test-attempted: 2398.6735 -> 1771480051342.2715 (timeOrigin: 1771480048943.598)
+[90m2026-02-19T05:47:31.794Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Setting runSmartSelection: enabled=false, mode=relevantFirst
+[90m2026-02-19T05:47:31.794Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [_extractBuildDetails] Extracted - projectName: undefined, buildName: undefined, buildIdentifier: undefined
+[90m2026-02-19T05:47:32.938Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Start_Build] Success response: {"observability":{"success":true,"options":{"allow_screenshots":true}},"automate":{"success":true,"options":{"allow_screenshots":true}},"build_hashed_id":"ft1xev8d4ceidir1rcphhmafxpvbi54eks8uvytz","jwt":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiIxMDY1NTUxNyIsImdyb3VwX2lkIjoxMDU2OTk0OCwidXNlcl9pZCI6MTA2NTU1MTcsImJ1aWxkX2hhc2hlZF9pZCI6ImZ0MXhldjhkNGNlaWRpcjFyY3BoaG1hZnhwdmJpNTRla3M4dXZ5dHoiLCJob29rX2FzX3Rlc3QiOiIxIiwiYnVpbGRfbmFtZSI6Im1vYmlsZS1sb2dpbi1hcHAiLCJwcm9kdWN0X21hcCI6IntcIm9ic2VydmFiaWxpdHlcIjp0cnVlLFwiYXV0b21hdGVcIjp0cnVlLFwibm9uU0RLXCI6ZmFsc2UsXCJvcmlnaW5Gcm9tUHJvZHVjdE1hcFwiOlwiQXV0b21hdGVcIixcImJzdGFja0F1dG9tYXRpb25cIjp0cnVlLFwiY2FkXCI6dHJ1ZSxcImFjY2Vzc2liaWxpdHlBdXRvRW5hYmxlZFwiOnRydWV9IiwiZ3JyX3JlZ2lvbiI6IiIsImlzX2xvd192b2x1bWUiOmZhbHNlLCJpc19sY25jX2V2ZW50IjpmYWxzZSwiaXNfbHRzX2V2ZW50IjpmYWxzZSwic2lnbmluZ19rZXlfaGFzaCI6IjM3YzExMzFlNGIyZTc0M2M3NjZlMWQ3MGJmNWYyYjU3ZGM2OWIxOTVkMzAwZTMyYWU4ZDAyMzEyMGE0YTZkOTciLCJpYXQiOjE3NzE0ODAwNTcsImV4cCI6MTc3MTgyNTY1N30.kCOb_3umvHMDcrtNkuPOeqT5v8LGN3RYA-ss6dPhYss"}
+[90m2026-02-19T05:47:32.938Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Testhub started with id: ft1xev8d4ceidir1rcphhmafxpvbi54eks8uvytz
+[90m2026-02-19T05:47:32.939Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m browserstackLocal is not enabled - skipping...
+[90m2026-02-19T05:47:32.996Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:pre-test: 2398.0488 -> 1771480051341.6467 (timeOrigin: 1771480048943.598)
+[90m2026-02-19T05:47:32.996Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:testhub:start: 2824.2449 -> 1771480051767.8428 (timeOrigin: 1771480048943.598)
+[90m2026-02-19T05:47:32.996Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:setup: 4007.0326 -> 1771480052950.6306 (timeOrigin: 1771480048943.598)
+[90m2026-02-19T05:47:35.445Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Device allocation tracking started - waiting for WebDriverIO to create remote session
+[90m2026-02-19T05:47:36.864Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 2433.8908 -> 1771480055444.703 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:36.864Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:driverInit: 2434.1319 -> 1771480055444.9438 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:52.208Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Device allocation tracking ended - remote session created successfully
+[90m2026-02-19T05:47:52.209Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Skipping method: Console, exists: true, type: function
+[90m2026-02-19T05:47:52.215Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:device-allocation: 2434.5711 -> 1771480055445.383 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:52.327Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Requesting Browserstack session URL at https://api-cloud.browserstack.com/app-automate/sessions/cacfad784aa54d5778eec16ddcb129a6503715ed.json
+[90m2026-02-19T05:47:52.331Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:driver:pre-initialization: 19198.7302 -> 1771480072209.5422 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:52.331Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:observabilityConfig: 19199.7779 -> 1771480072210.5898 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:52.728Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m  session: https://app-automate.browserstack.com/builds/29ac266a36bdb60120fa5a12205c76c2bb2065e5/sessions/cacfad784aa54d5778eec16ddcb129a6503715ed
+[90m2026-02-19T05:47:52.795Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 19198.2273 -> 1771480072209.0393 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:52.795Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:driver:post-initialization: 19316.3941 -> 1771480072327.206 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:52.795Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:automate:print-buildlink: 19316.4261 -> 1771480072327.238 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:52.811Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId cacfad784aa54d5778eec16ddcb129a6503715ed
+[90m2026-02-19T05:47:52.811Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/cacfad784aa54d5778eec16ddcb129a6503715ed.json with request body: 
+[90m2026-02-19T05:47:53.286Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"R5CT30ZTRCY","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT30ZTRCY","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"samsung galaxy s22 ultra","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT30ZTRCY","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12.0","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true},"deviceUDID":"R5CT30ZTRCY","pixelRatio":"2.8125","statBarHeight":75,"viewportRect":{"left":0,"top":75,"width":1080,"height":2241},"deviceApiLevel":31,"deviceManufacturer":"samsung","deviceModel":"SM-S908E","deviceScreenSize":"1080x2316","deviceScreenDensity":450}
+[90m2026-02-19T05:47:53.286Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:automationName":"UiAutomator2","appium:app":"bs://699284aea40976e6df6f690d3977c8180bfbaea4","bstack:options":{"userName":"pavankumarjois_5Qklh9","accessKey":"8WzLRB6LJLdh7ssoVFUe","appiumVersion":"3.1.0","wdioService":"9.23.2","testhubBuildUuid":"ft1xev8d4ceidir1rcphhmafxpvbi54eks8uvytz","buildProductMap":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false}}}
+[90m2026-02-19T05:47:53.286Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got platformVersion from driver caps
+[90m2026-02-19T05:47:53.286Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2026-02-19T05:47:53.289Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 19800.8936 -> 1771480072811.7056 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:53.349Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2026-02-19T05:47:53.354Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 20275.0041 -> 1771480073285.8162 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:53.376Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2026-02-19T05:47:53.380Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 20341.0431 -> 1771480073351.8552 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:53.594Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2026-02-19T05:47:53.711Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2026-02-19T05:47:53.799Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
+[90m2026-02-19T05:47:53.800Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 7
+[90m2026-02-19T05:47:53.803Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 20790.028 -> 1771480073800.84 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:53.822Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 8
+[90m2026-02-19T05:47:53.825Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 20791.0643 -> 1771480073801.8762 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:53.876Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 9
+[90m2026-02-19T05:47:53.932Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 10
+[90m2026-02-19T05:47:53.992Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 11
+[90m2026-02-19T05:47:54.042Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 12
+[90m2026-02-19T05:47:55.066Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 13
+[90m2026-02-19T05:47:55.294Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 13, Queue length after removal = 0
+[90m2026-02-19T05:47:55.294Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2026-02-19T05:47:55.294Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 13
+[90m2026-02-19T05:47:56.000Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2026-02-19T05:47:56.038Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2026-02-19T05:47:56.038Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 13
+[90m2026-02-19T05:47:56.963Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2026-02-19T05:47:57.307Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 2, Queue length after removal = 0
+[90m2026-02-19T05:47:57.308Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2026-02-19T05:47:57.308Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 2
+[90m2026-02-19T05:47:57.502Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2026-02-19T05:47:57.504Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 24491.9841 -> 1771480077502.7961 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:57.531Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2026-02-19T05:47:57.533Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 24492.5223 -> 1771480077503.3342 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:57.691Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2026-02-19T05:47:57.691Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 2
+[90m2026-02-19T05:47:58.078Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2026-02-19T05:47:58.274Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2026-02-19T05:47:58.276Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 25264.6336 -> 1771480078275.4456 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:58.296Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2026-02-19T05:47:58.299Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 25265.1777 -> 1771480078275.9897 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:58.893Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
+[90m2026-02-19T05:47:59.320Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 6, Queue length after removal = 0
+[90m2026-02-19T05:47:59.320Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2026-02-19T05:47:59.320Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 6
+[90m2026-02-19T05:47:59.427Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2026-02-19T05:47:59.431Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 26419.1087 -> 1771480079429.9207 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:59.450Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2026-02-19T05:47:59.453Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 26419.7443 -> 1771480079430.5564 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:59.574Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2026-02-19T05:47:59.574Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 6
+[90m2026-02-19T05:47:59.705Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2026-02-19T05:47:59.755Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2026-02-19T05:47:59.758Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 26745.5691 -> 1771480079756.381 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:59.777Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2026-02-19T05:47:59.779Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 26746.0175 -> 1771480079756.8296 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:47:59.937Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
+[90m2026-02-19T05:47:59.983Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 7
+[90m2026-02-19T05:48:00.106Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 8
+[90m2026-02-19T05:48:00.246Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 9
+[90m2026-02-19T05:48:00.339Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 10
+[90m2026-02-19T05:48:01.333Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 10, Queue length after removal = 0
+[90m2026-02-19T05:48:01.333Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2026-02-19T05:48:01.333Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 10
+[90m2026-02-19T05:48:01.588Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2026-02-19T05:48:01.588Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 10
+[90m2026-02-19T05:48:01.972Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2026-02-19T05:48:02.046Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2026-02-19T05:48:02.145Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2026-02-19T05:48:02.295Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2026-02-19T05:48:03.344Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 4, Queue length after removal = 0
+[90m2026-02-19T05:48:03.344Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2026-02-19T05:48:03.344Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 4
+[90m2026-02-19T05:48:03.640Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2026-02-19T05:48:03.641Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 4
+[90m2026-02-19T05:48:03.985Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2026-02-19T05:48:04.083Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2026-02-19T05:48:04.085Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2026-02-19T05:48:04.086Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after scenario hook. Before sending test stop event
+[90m2026-02-19T05:48:04.086Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Flushing CBT Data Queue 0eb5abba-f880-4cbe-a757-b694a714b01a
+[90m2026-02-19T05:48:04.086Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2026-02-19T05:48:04.088Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"R5CT30ZTRCY","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT30ZTRCY","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"samsung galaxy s22 ultra","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT30ZTRCY","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12.0","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true},"deviceUDID":"R5CT30ZTRCY","pixelRatio":"2.8125","statBarHeight":75,"viewportRect":{"left":0,"top":75,"width":1080,"height":2241},"deviceApiLevel":31,"deviceManufacturer":"samsung","deviceModel":"SM-S908E","deviceScreenSize":"1080x2316","deviceScreenDensity":450}
+[90m2026-02-19T05:48:04.088Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:automationName":"UiAutomator2","appium:app":"bs://699284aea40976e6df6f690d3977c8180bfbaea4","bstack:options":{"userName":"pavankumarjois_5Qklh9","accessKey":"8WzLRB6LJLdh7ssoVFUe","appiumVersion":"3.1.0","wdioService":"9.23.2","testhubBuildUuid":"ft1xev8d4ceidir1rcphhmafxpvbi54eks8uvytz","buildProductMap":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false}}}
+[90m2026-02-19T05:48:04.088Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got platformVersion from driver caps
+[90m2026-02-19T05:48:04.088Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2026-02-19T05:48:04.089Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 31075.3085 -> 1771480084086.1206 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:04.089Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 31075.929 -> 1771480084086.741 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:04.111Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
+[90m2026-02-19T05:48:04.113Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 31077.8299 -> 1771480084088.6418 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:04.133Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 7
+[90m2026-02-19T05:48:04.135Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 31101.5633 -> 1771480084112.3752 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:04.283Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 8
+[90m2026-02-19T05:48:04.333Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 9
+[90m2026-02-19T05:48:04.374Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 10
+[90m2026-02-19T05:48:04.374Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 11
+[90m2026-02-19T05:48:04.376Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 31364.5346 -> 1771480084375.3467 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:04.396Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 12
+[90m2026-02-19T05:48:04.398Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 31364.8793 -> 1771480084375.6914 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:04.442Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 13
+[90m2026-02-19T05:48:04.478Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 14
+[90m2026-02-19T05:48:04.527Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 15
+[90m2026-02-19T05:48:04.593Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 16
+[90m2026-02-19T05:48:05.351Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 16, Queue length after removal = 0
+[90m2026-02-19T05:48:05.351Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2026-02-19T05:48:05.351Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 16
+[90m2026-02-19T05:48:05.603Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2026-02-19T05:48:05.643Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2026-02-19T05:48:05.643Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 16
+[90m2026-02-19T05:48:06.123Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2026-02-19T05:48:06.174Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2026-02-19T05:48:06.763Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2026-02-19T05:48:06.765Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 33753.6388 -> 1771480086764.451 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:06.786Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2026-02-19T05:48:06.788Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 33754.1144 -> 1771480086764.9265 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:07.290Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
+[90m2026-02-19T05:48:07.358Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 6, Queue length after removal = 0
+[90m2026-02-19T05:48:07.358Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2026-02-19T05:48:07.358Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 6
+[90m2026-02-19T05:48:07.456Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2026-02-19T05:48:07.458Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 34446.4137 -> 1771480087457.2258 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:07.485Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2026-02-19T05:48:07.487Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 34446.8264 -> 1771480087457.6384 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:07.686Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2026-02-19T05:48:07.686Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 6
+[90m2026-02-19T05:48:08.581Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2026-02-19T05:48:08.637Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2026-02-19T05:48:08.639Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 35627.7354 -> 1771480088638.5474 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:08.660Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2026-02-19T05:48:08.662Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 35628.1654 -> 1771480088638.9773 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:08.788Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
+[90m2026-02-19T05:48:08.870Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 7
+[90m2026-02-19T05:48:08.872Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after scenario hook. Before sending test stop event
+[90m2026-02-19T05:48:08.872Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Flushing CBT Data Queue a2d765a6-3cc8-4524-bc43-8648832beb8b
+[90m2026-02-19T05:48:08.872Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 8
+[90m2026-02-19T05:48:08.873Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"R5CT30ZTRCY","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT30ZTRCY","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"samsung galaxy s22 ultra","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT30ZTRCY","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12.0","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true},"deviceUDID":"R5CT30ZTRCY","pixelRatio":"2.8125","statBarHeight":75,"viewportRect":{"left":0,"top":75,"width":1080,"height":2241},"deviceApiLevel":31,"deviceManufacturer":"samsung","deviceModel":"SM-S908E","deviceScreenSize":"1080x2316","deviceScreenDensity":450}
+[90m2026-02-19T05:48:08.873Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:automationName":"UiAutomator2","appium:app":"bs://699284aea40976e6df6f690d3977c8180bfbaea4","bstack:options":{"userName":"pavankumarjois_5Qklh9","accessKey":"8WzLRB6LJLdh7ssoVFUe","appiumVersion":"3.1.0","wdioService":"9.23.2","testhubBuildUuid":"ft1xev8d4ceidir1rcphhmafxpvbi54eks8uvytz","buildProductMap":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false}}}
+[90m2026-02-19T05:48:08.873Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got platformVersion from driver caps
+[90m2026-02-19T05:48:08.873Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 9
+[90m2026-02-19T05:48:08.874Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 35861.5775 -> 1771480088872.3894 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:08.874Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 35861.9977 -> 1771480088872.8098 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:08.894Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 10
+[90m2026-02-19T05:48:08.896Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 35863.0822 -> 1771480088873.8943 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:08.919Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 11
+[90m2026-02-19T05:48:08.921Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 35884.4725 -> 1771480088895.2844 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:09.063Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 12
+[90m2026-02-19T05:48:09.131Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 13
+[90m2026-02-19T05:48:09.190Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 14
+[90m2026-02-19T05:48:09.190Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 15
+[90m2026-02-19T05:48:09.192Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 36180.4321 -> 1771480089191.2441 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:09.211Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 16
+[90m2026-02-19T05:48:09.213Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 36180.8317 -> 1771480089191.6438 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:09.358Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 16, Queue length after removal = 0
+[90m2026-02-19T05:48:09.358Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2026-02-19T05:48:09.358Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 16
+[90m2026-02-19T05:48:09.567Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2026-02-19T05:48:09.608Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2026-02-19T05:48:09.622Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2026-02-19T05:48:09.622Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 16
+[90m2026-02-19T05:48:09.691Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2026-02-19T05:48:09.750Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2026-02-19T05:48:10.873Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2026-02-19T05:48:11.370Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 5, Queue length after removal = 0
+[90m2026-02-19T05:48:11.370Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2026-02-19T05:48:11.370Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 5
+[90m2026-02-19T05:48:11.423Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2026-02-19T05:48:11.504Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2026-02-19T05:48:11.620Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2026-02-19T05:48:11.620Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 5
+[90m2026-02-19T05:48:12.660Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2026-02-19T05:48:12.662Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 39649.8322 -> 1771480092660.6443 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:12.682Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2026-02-19T05:48:12.684Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 39650.2368 -> 1771480092661.0488 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:13.258Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2026-02-19T05:48:13.305Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
+[90m2026-02-19T05:48:13.307Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 40295.8039 -> 1771480093306.616 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:13.328Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 7
+[90m2026-02-19T05:48:13.330Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 40296.0789 -> 1771480093306.8909 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:13.381Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 7, Queue length after removal = 0
+[90m2026-02-19T05:48:13.381Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2026-02-19T05:48:13.381Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 7
+[90m2026-02-19T05:48:13.457Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2026-02-19T05:48:13.540Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2026-02-19T05:48:13.541Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after scenario hook. Before sending test stop event
+[90m2026-02-19T05:48:13.541Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Flushing CBT Data Queue 28b37cdf-e1f1-47f3-b3bf-dfd0e60d0f0c
+[90m2026-02-19T05:48:13.541Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2026-02-19T05:48:13.542Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"R5CT30ZTRCY","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT30ZTRCY","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"samsung galaxy s22 ultra","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT30ZTRCY","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12.0","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true},"deviceUDID":"R5CT30ZTRCY","pixelRatio":"2.8125","statBarHeight":75,"viewportRect":{"left":0,"top":75,"width":1080,"height":2241},"deviceApiLevel":31,"deviceManufacturer":"samsung","deviceModel":"SM-S908E","deviceScreenSize":"1080x2316","deviceScreenDensity":450}
+[90m2026-02-19T05:48:13.542Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:automationName":"UiAutomator2","appium:app":"bs://699284aea40976e6df6f690d3977c8180bfbaea4","bstack:options":{"userName":"pavankumarjois_5Qklh9","accessKey":"8WzLRB6LJLdh7ssoVFUe","appiumVersion":"3.1.0","wdioService":"9.23.2","testhubBuildUuid":"ft1xev8d4ceidir1rcphhmafxpvbi54eks8uvytz","buildProductMap":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false}}}
+[90m2026-02-19T05:48:13.542Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got platformVersion from driver caps
+[90m2026-02-19T05:48:13.542Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2026-02-19T05:48:13.543Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 40530.24 -> 1771480093541.052 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:13.543Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 40530.7567 -> 1771480093541.5686 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:13.569Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2026-02-19T05:48:13.571Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 40531.9903 -> 1771480093542.8022 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:13.594Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
+[90m2026-02-19T05:48:13.596Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 40559.6896 -> 1771480093570.5017 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:13.635Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2026-02-19T05:48:13.635Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 7
+[90m2026-02-19T05:48:13.747Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 7
+[90m2026-02-19T05:48:13.806Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 8
+[90m2026-02-19T05:48:13.863Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 9
+[90m2026-02-19T05:48:13.864Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 10
+[90m2026-02-19T05:48:13.865Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 40853.7436 -> 1771480093864.5557 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:13.886Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 11
+[90m2026-02-19T05:48:13.888Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 40854.0431 -> 1771480093864.8552 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:13.938Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 12
+[90m2026-02-19T05:48:13.987Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 13
+[90m2026-02-19T05:48:14.061Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 14
+[90m2026-02-19T05:48:14.112Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 15
+[90m2026-02-19T05:48:15.228Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 16
+[90m2026-02-19T05:48:15.388Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 16, Queue length after removal = 0
+[90m2026-02-19T05:48:15.388Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2026-02-19T05:48:15.388Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 16
+[90m2026-02-19T05:48:15.651Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2026-02-19T05:48:15.652Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 16
+[90m2026-02-19T05:48:15.811Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2026-02-19T05:48:15.876Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2026-02-19T05:48:16.912Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2026-02-19T05:48:16.914Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 43902.5223 -> 1771480096913.3342 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:16.936Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2026-02-19T05:48:16.938Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 43902.8274 -> 1771480096913.6394 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:17.389Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 4, Queue length after removal = 0
+[90m2026-02-19T05:48:17.389Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2026-02-19T05:48:17.389Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 4
+[90m2026-02-19T05:48:17.466Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2026-02-19T05:48:17.612Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2026-02-19T05:48:17.614Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 44602.1659 -> 1771480097612.978 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:17.636Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2026-02-19T05:48:17.638Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 44602.444 -> 1771480097613.256 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:17.659Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2026-02-19T05:48:17.660Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 4
+[90m2026-02-19T05:48:18.367Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2026-02-19T05:48:18.413Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2026-02-19T05:48:18.414Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after scenario hook. Before sending test stop event
+[90m2026-02-19T05:48:18.414Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Flushing CBT Data Queue 9dfd5bd6-8135-45e0-8df2-7f0ab325e7f1
+[90m2026-02-19T05:48:18.414Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
+[90m2026-02-19T05:48:18.415Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"R5CT30ZTRCY","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT30ZTRCY","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"samsung galaxy s22 ultra","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT30ZTRCY","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12.0","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true},"deviceUDID":"R5CT30ZTRCY","pixelRatio":"2.8125","statBarHeight":75,"viewportRect":{"left":0,"top":75,"width":1080,"height":2241},"deviceApiLevel":31,"deviceManufacturer":"samsung","deviceModel":"SM-S908E","deviceScreenSize":"1080x2316","deviceScreenDensity":450}
+[90m2026-02-19T05:48:18.415Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:automationName":"UiAutomator2","appium:app":"bs://699284aea40976e6df6f690d3977c8180bfbaea4","bstack:options":{"userName":"pavankumarjois_5Qklh9","accessKey":"8WzLRB6LJLdh7ssoVFUe","appiumVersion":"3.1.0","wdioService":"9.23.2","testhubBuildUuid":"ft1xev8d4ceidir1rcphhmafxpvbi54eks8uvytz","buildProductMap":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false}}}
+[90m2026-02-19T05:48:18.415Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got platformVersion from driver caps
+[90m2026-02-19T05:48:18.415Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 7
+[90m2026-02-19T05:48:18.417Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 45403.8297 -> 1771480098414.6416 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:18.417Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 45404.1331 -> 1771480098414.945 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:18.436Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 8
+[90m2026-02-19T05:48:18.438Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 45405.2188 -> 1771480098416.0308 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:18.460Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 9
+[90m2026-02-19T05:48:18.462Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 45426.6003 -> 1771480098437.4124 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:18.628Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 10
+[90m2026-02-19T05:48:18.682Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 11
+[90m2026-02-19T05:48:18.719Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 12
+[90m2026-02-19T05:48:18.719Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 13
+[90m2026-02-19T05:48:18.721Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 45709.4745 -> 1771480098720.2866 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:18.740Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 14
+[90m2026-02-19T05:48:18.742Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 45709.7224 -> 1771480098720.5344 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:18.788Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 15
+[90m2026-02-19T05:48:18.829Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 16
+[90m2026-02-19T05:48:18.872Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 17
+[90m2026-02-19T05:48:18.934Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 18
+[90m2026-02-19T05:48:19.402Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 18, Queue length after removal = 0
+[90m2026-02-19T05:48:19.402Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2026-02-19T05:48:19.402Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 18
+[90m2026-02-19T05:48:19.654Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2026-02-19T05:48:19.654Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 18
+[90m2026-02-19T05:48:19.943Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2026-02-19T05:48:20.458Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2026-02-19T05:48:20.511Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2026-02-19T05:48:21.411Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 3, Queue length after removal = 0
+[90m2026-02-19T05:48:21.411Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2026-02-19T05:48:21.411Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 3
+[90m2026-02-19T05:48:21.539Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2026-02-19T05:48:21.540Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 48528.886 -> 1771480101539.698 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:21.560Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2026-02-19T05:48:21.563Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 48529.3591 -> 1771480101540.1711 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:21.676Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2026-02-19T05:48:21.676Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 3
+[90m2026-02-19T05:48:22.062Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2026-02-19T05:48:22.223Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2026-02-19T05:48:22.224Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 49212.9437 -> 1771480102223.7556 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:22.245Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2026-02-19T05:48:22.247Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 49213.2378 -> 1771480102224.0498 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:22.983Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
+[90m2026-02-19T05:48:23.030Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 7
+[90m2026-02-19T05:48:23.031Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after scenario hook. Before sending test stop event
+[90m2026-02-19T05:48:23.031Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Flushing CBT Data Queue c12512cf-8b34-42b5-baf2-9fdeed4ea334
+[90m2026-02-19T05:48:23.031Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 8
+[90m2026-02-19T05:48:23.032Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"R5CT30ZTRCY","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT30ZTRCY","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"samsung galaxy s22 ultra","chromedriverPorts":[[18133,18143]],"automationName":"uiautomator2","bundleID":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp","skipServerInstallation":true,"udid":"R5CT30ZTRCY","appPackage":"com.swaglabsmobileapp","appActivity":"com.swaglabsmobileapp.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"12.0","systemPort":8203,"chromedriverPort":18083,"chromedriverExecutable":"/usr/local/.browserstack/deps/chromedriver/v114.0.5735.90/chromedriver","suppressKillServer":true},"deviceUDID":"R5CT30ZTRCY","pixelRatio":"2.8125","statBarHeight":75,"viewportRect":{"left":0,"top":75,"width":1080,"height":2241},"deviceApiLevel":31,"deviceManufacturer":"samsung","deviceModel":"SM-S908E","deviceScreenSize":"1080x2316","deviceScreenDensity":450}
+[90m2026-02-19T05:48:23.032Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"platformName":"Android","appium:platformVersion":"12.0","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:automationName":"UiAutomator2","appium:app":"bs://699284aea40976e6df6f690d3977c8180bfbaea4","bstack:options":{"userName":"pavankumarjois_5Qklh9","accessKey":"8WzLRB6LJLdh7ssoVFUe","appiumVersion":"3.1.0","wdioService":"9.23.2","testhubBuildUuid":"ft1xev8d4ceidir1rcphhmafxpvbi54eks8uvytz","buildProductMap":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false}}}
+[90m2026-02-19T05:48:23.032Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got platformVersion from driver caps
+[90m2026-02-19T05:48:23.032Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 9
+[90m2026-02-19T05:48:23.033Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 50020.4437 -> 1771480103031.2556 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:23.033Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 50020.8236 -> 1771480103031.6355 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:23.053Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 10
+[90m2026-02-19T05:48:23.054Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 50022.0207 -> 1771480103032.8328 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:23.075Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 11
+[90m2026-02-19T05:48:23.076Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 50042.9773 -> 1771480103053.7893 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:23.220Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 12
+[90m2026-02-19T05:48:23.274Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 13
+[90m2026-02-19T05:48:23.317Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 14
+[90m2026-02-19T05:48:23.317Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 15
+[90m2026-02-19T05:48:23.319Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 50307.2611 -> 1771480103318.073 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:23.341Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 16
+[90m2026-02-19T05:48:23.342Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 50307.5923 -> 1771480103318.4043 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:23.391Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 17
+[90m2026-02-19T05:48:23.424Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 17, Queue length after removal = 0
+[90m2026-02-19T05:48:23.424Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2026-02-19T05:48:23.424Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 17
+[90m2026-02-19T05:48:23.441Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2026-02-19T05:48:23.681Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2026-02-19T05:48:23.681Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 17
+[90m2026-02-19T05:48:24.063Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2026-02-19T05:48:24.140Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2026-02-19T05:48:24.671Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2026-02-19T05:48:24.840Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2026-02-19T05:48:24.842Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 51830.4582 -> 1771480104841.2703 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:24.860Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 6
+[90m2026-02-19T05:48:24.863Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 51830.6945 -> 1771480104841.5066 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:25.433Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 6, Queue length after removal = 0
+[90m2026-02-19T05:48:25.434Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2026-02-19T05:48:25.434Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 6
+[90m2026-02-19T05:48:25.548Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2026-02-19T05:48:25.592Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2026-02-19T05:48:25.593Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after scenario hook. Before sending test stop event
+[90m2026-02-19T05:48:25.593Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Flushing CBT Data Queue 5ff176a9-c11e-4a32-aba2-9bf94180d202
+[90m2026-02-19T05:48:25.593Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2026-02-19T05:48:25.594Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId cacfad784aa54d5778eec16ddcb129a6503715ed
+[90m2026-02-19T05:48:25.594Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/cacfad784aa54d5778eec16ddcb129a6503715ed.json with request body: 
+[90m2026-02-19T05:48:25.596Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 52582.7515 -> 1771480105593.5635 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:25.596Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook: 52583.1051 -> 1771480105593.917 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:25.712Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2026-02-19T05:48:25.713Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 6
+[90m2026-02-19T05:48:26.048Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
+[90m2026-02-19T05:48:26.048Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown started
+[90m2026-02-19T05:48:26.048Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Shutting down request queue
+[90m2026-02-19T05:48:26.048Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind SHUTDOWN_QUEUE
+[90m2026-02-19T05:48:26.048Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 3
+[90m2026-02-19T05:48:26.049Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:automate:session-status: 52584.3132 -> 1771480105595.1252 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:26.293Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2026-02-19T05:48:26.294Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 3
+[90m2026-02-19T05:48:26.294Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown ended
+[90m2026-02-19T05:48:26.294Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
+[90m2026-02-19T05:48:26.311Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:hook:after: 52584.2259 -> 1771480105595.0378 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:26.311Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:driver:quit: 52584.2362 -> 1771480105595.048 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:26.311Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:listener:worker-end: 53038.0922 -> 1771480106048.9043 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:26.311Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:percy:teardown: 53283.7926 -> 1771480106294.6045 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:26.311Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:worker:save-data: 53283.8203 -> 1771480106294.6323 (timeOrigin: 1771480053010.812)
+[90m2026-02-19T05:48:27.823Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2026-02-19T05:48:28.301Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
+[90m2026-02-19T05:48:28.301Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
+[90m2026-02-19T05:48:29.195Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Success response: 
+[90m2026-02-19T05:48:29.196Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
+[90m2026-02-19T05:48:29.197Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:testhub:stop: 59357.7824 -> 1771480108301.3804 (timeOrigin: 1771480048943.598)
+[90m2026-02-19T05:48:29.854Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Success response: 
+[90m2026-02-19T05:48:29.856Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:automationFrameworkStop: 59357.6887 -> 1771480108301.2866 (timeOrigin: 1771480048943.598)
+[90m2026-02-19T05:48:29.856Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Timestamp conversion for sdk:testhub:stop: 60251.9917 -> 1771480109195.5896 (timeOrigin: 1771480048943.598)
+[90m2026-02-19T05:48:29.857Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m BrowserStack service run ended for id: b02ac7ac-d3e1-41c8-a6ee-c01b62e66e4c testhub id: ft1xev8d4ceidir1rcphhmafxpvbi54eks8uvytz
+[90m2026-02-19T05:48:29.858Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-23500.json
+[90m2026-02-19T05:48:29.872Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
   userName: '[REDACTED]',
   accessKey: '[REDACTED]',
   event_type: 'SDKTestSuccessful',
   detectedFramework: 'WebdriverIO-cucumber',
   event_properties: {
-    sdkRunId: '1c64870f-f7c6-4e4e-9e35-36d7c01ac6e7',
-    testhub_uuid: 'yqm7ctz2crbnzanxpcfdymmistlfdc8j9uw0cwli',
+    sdkRunId: 'b02ac7ac-d3e1-41c8-a6ee-c01b62e66e4c',
+    testhub_uuid: 'ft1xev8d4ceidir1rcphhmafxpvbi54eks8uvytz',
     language_framework: 'WebdriverIO_cucumber',
     referrer: 'WebdriverIO-cucumber/9.23.2',
     language: 'WebdriverIO',
@@ -437,7 +443,7 @@
       testObservability: {
         enabled: true,
         manuallySet: false,
-        buildHashedId: 'yqm7ctz2crbnzanxpcfdymmistlfdc8j9uw0cwli',
+        buildHashedId: 'ft1xev8d4ceidir1rcphhmafxpvbi54eks8uvytz',
         events: {
           buildEvents: {
             started: { isTriggered: true, status: 'success', error: undefined },
@@ -453,10 +459,10 @@
             finished: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
           },
           logEvents: {
-            triggeredCount: 139,
-            sentCount: 139,
+            triggeredCount: 140,
+            sentCount: 140,
             failedCount: 0,
-            http: { triggeredCount: 132, sentCount: 132, failedCount: 0 },
+            http: { triggeredCount: 133, sentCount: 133, failedCount: 0 },
             log: { triggeredCount: 7, sentCount: 7, failedCount: 0 }
           },
           cbtSessionEvents: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
@@ -465,9 +471,9 @@
     }
   }
 }
-[90m2026-02-09T06:29:25.383Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel Event Response: "{\"message\":\"SDK Event recorded successfully\"}"
-[90m2026-02-09T06:29:25.383Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
-2026-02-09T06:29:26.261Z DEBUG @wdio/browserstack-service [Performance Upload] Starting upload for worker 31328
-2026-02-09T06:29:26.275Z DEBUG @wdio/browserstack-service [Performance Upload] Total events from files: 88
-2026-02-09T06:29:27.501Z DEBUG @wdio/browserstack-service [Performance Upload] Successfully uploaded to EDS: Bravo
-2026-02-09T06:29:27.503Z DEBUG @wdio/browserstack-service [Performance Upload] Cleaned up 2 temporary report files
+[90m2026-02-19T05:48:30.201Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel Event Response: "{\"message\":\"SDK Event recorded successfully\"}"
+[90m2026-02-19T05:48:30.201Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
+2026-02-19T05:48:30.845Z DEBUG @wdio/browserstack-service [Performance Upload] Starting upload for worker 3436
+2026-02-19T05:48:30.856Z DEBUG @wdio/browserstack-service [Performance Upload] Total events from files: 88
+2026-02-19T05:48:32.079Z DEBUG @wdio/browserstack-service [Performance Upload] Successfully uploaded to EDS: Bravo
+2026-02-19T05:48:32.081Z DEBUG @wdio/browserstack-service [Performance Upload] Cleaned up 2 temporary report files
